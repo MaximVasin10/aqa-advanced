@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/MaximVasin10/aqa-advanced/issues"
   },
-  "homepage": "https://github.com/MaximVasin10/aqa-advanced#readme"
+  "homepage": "https://github.com/MaximVasin10/aqa-advanced#readme",
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.1.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.8.1"
+  }
 }
