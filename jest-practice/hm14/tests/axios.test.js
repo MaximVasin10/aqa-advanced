@@ -1,4 +1,4 @@
-const api = require('./controllers');
+const api = require('../api/controllers');
 
 
 test('Get all POSTs and check the length', async () => {
